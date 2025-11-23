@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SelfRhythm</string>
+    <string name="full_app_name">Create Your Own Rhythm</string>
+    <string name="menu_button">Open to menu</string>
+    <string name="home_button">Back to home</string>
+    <string name="settings_button_en">Settings</string>
+</resources>

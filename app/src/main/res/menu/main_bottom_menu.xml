@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_nav"
+        android:icon="@mipmap/ic_launcher_dark"
+        android:title="@string/home_button"
+        />
+    <item
+        android:id="@+id/calendar_nav"
+        android:icon="@mipmap/ic_launcher_calm"
+        android:title="-----"
+        />
+    <item
+        android:id="@+id/week_manage_nav"
+        android:icon="@mipmap/ic_launcher_dark"
+        android:title="-----"
+        />
+    <item
+        android:id="@+id/settings_nav"
+        android:icon="@mipmap/ic_launcher"
+        android:title="-----"
+        />
+</menu>

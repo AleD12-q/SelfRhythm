@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_bottom_nav"
+    app:startDestination="@id/home_nav">
+
+    <fragment
+        android:id="@+id/home_nav"
+        android:name="com.example.cyod.fragment_control.HomeFragment"
+        android:label="@string/home_button"
+        tools:layout="@layout/home_fragment"/>
+    <fragment
+        android:id="@+id/calendar_nav"
+        android:name="com.example.cyod.fragment_control.CalendarFragment"
+        android:label="--------------"
+        tools:layout="@layout/calendar_fragment"/>
+    <fragment
+        android:id="@+id/week_manage_nav"
+        android:name="com.example.cyod.fragment_control.WeekManageFragment"
+        android:label="--------"
+        tools:layout="@layout/week_manege_fragment"/>
+    <fragment
+        android:id="@+id/settings_nav"
+        android:name="com.example.cyod.fragment_control.SettingsFragment"
+        android:label="-----------"
+        tools:layout="@layout/settings_fragment"/>
+</navigation>

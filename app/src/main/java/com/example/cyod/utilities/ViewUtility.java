@@ -1,4 +1,4 @@
-package com.example.cyod.menupkg.utilities;
+package com.example.cyod.utilities;
 
 import static androidx.core.content.ContextCompat.startActivity;
 

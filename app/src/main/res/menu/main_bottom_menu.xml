@@ -3,21 +3,21 @@
     <item
         android:id="@+id/home_nav"
         android:icon="@mipmap/ic_launcher_dark"
-        android:title="@string/home_item_description_en"
+        android:title="@string/home_item_description"
         />
     <item
         android:id="@+id/calendar_nav"
         android:icon="@mipmap/ic_launcher_calm"
-        android:title="@string/calendar_item_description_en"
+        android:title="@string/calendar_item_description"
         />
     <item
         android:id="@+id/week_manage_nav"
         android:icon="@mipmap/ic_launcher_dark"
-        android:title="@string/week_manage_item_description_en"
+        android:title="@string/week_manage_item_description"
         />
     <item
         android:id="@+id/settings_nav"
         android:icon="@mipmap/ic_launcher"
-        android:title="@string/settings_item_description_en"
+        android:title="@string/settings_item_description"
         />
 </menu>

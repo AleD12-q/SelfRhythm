@@ -8,21 +8,21 @@
     <fragment
         android:id="@+id/home_nav"
         android:name="com.example.cyod.fragment_control.HomeFragment"
-        android:label="@string/home_item_description_en"
+        android:label="@string/home_item_description"
         tools:layout="@layout/home_fragment"/>
     <fragment
         android:id="@+id/calendar_nav"
         android:name="com.example.cyod.fragment_control.CalendarFragment"
-        android:label="@string/calendar_item_description_en"
+        android:label="@string/calendar_item_description"
         tools:layout="@layout/calendar_fragment"/>
     <fragment
         android:id="@+id/week_manage_nav"
         android:name="com.example.cyod.fragment_control.WeekManageFragment"
-        android:label="@string/week_manage_item_description_en"
+        android:label="@string/week_manage_item_description"
         tools:layout="@layout/week_manege_fragment"/>
     <fragment
         android:id="@+id/settings_nav"
         android:name="com.example.cyod.fragment_control.SettingsFragment"
-        android:label="@string/settings_item_description_en"
+        android:label="@string/settings_item_description"
         tools:layout="@layout/settings_fragment"/>
 </navigation>

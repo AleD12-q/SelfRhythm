@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Свой ритм</string>
+    <string name="full_app_name">Создай свой ритм</string>
+    <string name="home_item_description">Сегодня</string>
+    <string name="calendar_item_description">Календарь</string>
+    <string name="week_manage_item_description">Недели</string>
+    <string name="settings_item_description">Настройки</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="monday_short">пн</string>
+    <string name="tuesday_short">вт</string>
+    <string name="wednesday_short">ср</string>
+    <string name="thursday_short">чт</string>
+    <string name="friday_short">пт</string>
+    <string name="saturday_short">сб</string>
+    <string name="sunday_short">вс</string>
+    <string name="edit_item">редактировать</string>
+    <string name="delete_item">удалить</string>
+    <string name="add_item">добавить</string>
+    <string name="edit_item_up">Редактировать</string>
+    <string name="delete_item_up">Удалить</string>
+    <string name="add_item_up">Добавить</string>
+    <string name="title_hint">Название</string>
+</resources>

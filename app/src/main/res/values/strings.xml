@@ -1,12 +1,30 @@
 <resources>
     <string name="app_name">SelfRhythm</string>
     <string name="full_app_name">Create Your Own Rhythm</string>
-    <string name="home_item_description_en">Today</string>
-    <string name="calendar_item_description_en">Calendar</string>
-    <string name="week_manage_item_description_en">Weeks</string>
-    <string name="settings_item_description_en">Settings</string>
-    <string name="home_item_description_ru">Сегодня</string>
-    <string name="calendar_item_description_ru">Календарь</string>
-    <string name="week_manage_item_description_ru">Недели</string>
-    <string name="settings_item_description_ru">Настройки</string>
+    <string name="home_item_description">Today</string>
+    <string name="calendar_item_description">Calendar</string>
+    <string name="week_manage_item_description">Weeks</string>
+    <string name="settings_item_description">Settings</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday_short">mon</string>
+    <string name="tuesday_short">tue</string>
+    <string name="wednesday_short">wed</string>
+    <string name="thursday_short">thu</string>
+    <string name="friday_short">fri</string>
+    <string name="saturday_short">sat</string>
+    <string name="sunday_short">sun</string>
+    <string name="edit_item">edit</string>
+    <string name="delete_item">delete</string>
+    <string name="add_item">add</string>
+    <string name="edit_item_up">Edit</string>
+    <string name="delete_item_up">Delete</string>
+    <string name="add_item_up">Add</string>
+    <string name="title_hint">Title</string>
+
 </resources>

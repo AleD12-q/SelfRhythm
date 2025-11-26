@@ -26,5 +26,5 @@
     <string name="delete_item_up">Delete</string>
     <string name="add_item_up">Add</string>
     <string name="title_hint">Title</string>
-
+    <string name="time_text">Time</string>
 </resources>

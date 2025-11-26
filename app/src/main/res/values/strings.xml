@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">SelfRhythm</string>
     <string name="full_app_name">Create Your Own Rhythm</string>
-    <string name="menu_button">Open to menu</string>
-    <string name="home_button">Back to home</string>
-    <string name="settings_button_en">Settings</string>
+    <string name="home_item_description_en">Today</string>
+    <string name="calendar_item_description_en">Calendar</string>
+    <string name="week_manage_item_description_en">Weeks</string>
+    <string name="settings_item_description_en">Settings</string>
+    <string name="home_item_description_ru">Сегодня</string>
+    <string name="calendar_item_description_ru">Календарь</string>
+    <string name="week_manage_item_description_ru">Недели</string>
+    <string name="settings_item_description_ru">Настройки</string>
 </resources>

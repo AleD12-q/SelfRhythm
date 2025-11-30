@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Свой ритм</string>
+    <string name="app_name">SelfRhythm</string>
     <string name="full_app_name">Создай свой ритм</string>
     <string name="home_item_description">Сегодня</string>
     <string name="calendar_item_description">Календарь</string>
     <string name="week_manage_item_description">Недели</string>
     <string name="settings_item_description">Настройки</string>
+    <string name="help_description">Помощь</string>
     <string name="monday">Понедельник</string>
     <string name="tuesday">Вторник</string>
     <string name="wednesday">Среда</string>
@@ -27,5 +28,15 @@
     <string name="delete_item_up">Удалить</string>
     <string name="add_item_up">Добавить</string>
     <string name="title_hint">Название</string>
-    <string name="time_text">Time</string>
+    <string name="time_text">Время</string>
+    <string name="settings_general">Главное</string>
+    <string name="settings_design">Дизайн</string>
+    <string name="settings_exp_func">Экперементальные функции</string>
+    <string name="settings_data_usage">Использование памяти</string>
+    <string name="settings_notif_and_sound">Уведомления и звук</string>
+    <string name="language">Язык</string>
+    <string name="help_privacy_policy">Политика кодфидециальности</string>
+    <string name="help_contacts">Контакты</string>
+    <string name="help_frequent_questions">Частые вопросы</string>
+    <string name="back_btn">Назад</string>
 </resources>

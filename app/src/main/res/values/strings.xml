@@ -5,6 +5,7 @@
     <string name="calendar_item_description">Calendar</string>
     <string name="week_manage_item_description">Weeks</string>
     <string name="settings_item_description">Settings</string>
+    <string name="help_description">Help</string>
     <string name="monday">Monday</string>
     <string name="tuesday">Tuesday</string>
     <string name="wednesday">Wednesday</string>
@@ -27,4 +28,14 @@
     <string name="add_item_up">Add</string>
     <string name="title_hint">Title</string>
     <string name="time_text">Time</string>
+    <string name="settings_general">General</string>
+    <string name="settings_design">Design</string>
+    <string name="settings_exp_func">Experimental functions</string>
+    <string name="settings_data_usage">Data usage</string>
+    <string name="settings_notif_and_sound">Notifications and sound</string>
+    <string name="language">Language</string>
+    <string name="help_privacy_policy">Privacy policy</string>
+    <string name="help_contacts">Contacts</string>
+    <string name="help_frequent_questions">Frequent Questions</string>
+    <string name="back_btn">Back</string>
 </resources>

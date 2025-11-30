@@ -19,7 +19,7 @@
         android:id="@+id/week_manage_nav"
         android:name="com.example.cyod.fragment_control.WeekManageFragment"
         android:label="@string/week_manage_item_description"
-        tools:layout="@layout/week_manege_fragment"/>
+        tools:layout="@layout/week_manage_fragment"/>
     <fragment
         android:id="@+id/settings_nav"
         android:name="com.example.cyod.fragment_control.SettingsFragment"

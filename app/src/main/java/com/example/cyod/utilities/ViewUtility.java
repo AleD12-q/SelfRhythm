@@ -11,6 +11,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.cyod.MainActivity;
+import com.example.cyod.R;
 
 public class ViewUtility {
 
@@ -20,6 +21,30 @@ public class ViewUtility {
             public void onClick(View v) {
                 Context context = v.getContext();
                 Intent intent = new Intent(context, toActivity);
+                context.startActivity(intent);
+            }
+        });
+    }
+
+    public static void setMoveOnClick(View view, final Class<?> toActivity, int startFragment) {
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context context = v.getContext();
+                Intent intent = new Intent(context, toActivity);
+                intent.putExtra("Start_Fragment", startFragment);
+                context.startActivity(intent);
+            }
+        });
+    }
+
+    public static void setMoveOnClick(View view, final Class<?> toActivity, SettingsFragmentType startFragment) {
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context context = v.getContext();
+                Intent intent = new Intent(context, toActivity);
+                intent.putExtra("Start_Fragment", startFragment.name());
                 context.startActivity(intent);
             }
         });
@@ -36,6 +61,19 @@ public class ViewUtility {
                 }
                 context.startActivity(intent);
             }
+        });
+    }
+
+    public static void setBackOnClick(View view, AppCompatActivity activity) {
+        view.setOnClickListener(v -> {
+            activity.finish();
+        });
+    }
+
+    public static void setBackOnClickWithAnimation(View view, AppCompatActivity activity) {
+        view.setOnClickListener(v -> {
+            activity.finish();
+            //activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         });
     }
 }

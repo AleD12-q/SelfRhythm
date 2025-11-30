@@ -2,18 +2,110 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/settingsLayout"
+    android:id="@+id/settingsMenuLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/settingsBlock"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="228dp"
-        android:text="SETTINGS"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/settingsBlockDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_item_description"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/secondary_text"/>
+
+        <Button
+            android:id="@+id/settings_general_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/third"
+            android:text="@string/settings_general" />
+
+        <Button
+            android:id="@+id/settings_design_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/third"
+            android:text="@string/settings_design" />
+
+        <Button
+            android:id="@+id/settings_exp_func_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/third"
+            android:text="@string/settings_exp_func" />
+
+        <Button
+            android:id="@+id/settings_data_usage_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/third"
+            android:text="@string/settings_data_usage" />
+
+        <Button
+            android:id="@+id/settings_notif_and_sound_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/third"
+            android:text="@string/settings_notif_and_sound" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/helpBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/settingsBlock"
+        >
+
+        <TextView
+            android:id="@+id/helpBlockDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help_description"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/secondary_text"/>
+
+        <Button
+            android:id="@+id/help_freq_ques_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/help_frequent_questions"
+            android:backgroundTint="@color/third"/>
+
+        <Button
+            android:id="@+id/settings_contacts_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/help_contacts"
+            android:backgroundTint="@color/third"/>
+
+        <Button
+            android:id="@+id/help_privacy_policy_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/help_privacy_policy"
+            android:backgroundTint="@color/third"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

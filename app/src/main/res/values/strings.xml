@@ -38,4 +38,6 @@
     <string name="help_contacts">Contacts</string>
     <string name="help_frequent_questions">Frequent Questions</string>
     <string name="back_btn">Back</string>
+    <string name="add_week_btn">Add new schedule</string>
+    <string name="dots">Dots</string>
 </resources>

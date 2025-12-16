@@ -16,15 +16,14 @@ import com.example.cyod.fragment_control.NotificationsAndSoundFragment;
 import com.example.cyod.utilities.SettingsFragmentType;
 import com.example.cyod.utilities.ViewUtility;
 
-public class SettingsActivity extends AppCompatActivity {
+public class SettingsActivity extends BaseActivity {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_activity);
+        setContentLayout(R.layout.settings_activity);
 
-        var back_btn = findViewById(R.id.backButton);
-        ViewUtility.setBackOnClick(back_btn, this);
+
 
 
         setStartFragment(getEnum());

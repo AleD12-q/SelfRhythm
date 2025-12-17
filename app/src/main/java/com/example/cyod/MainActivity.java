@@ -1,16 +1,20 @@
 package com.example.cyod;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.Intent;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.example.cyod.R;
 import androidx.annotation.StringRes;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
@@ -34,8 +38,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         nameFragment = findViewById(R.id.nameFragment);
+        ImageButton dots = findViewById(R.id.dotsBtn);
+        dots.setOnClickListener(v -> showDropdown());
         setupNavigation();
         setupLabelObserver();
+    }
+
+    private void showDropdown() {
+        String[] items = {
+                getString(R.string.new_task),
+                getString(R.string.tasks),
+                getString(R.string.import_item),
+                getString(R.string.export_item)
+        };
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.AppDialogTheme);
+        builder.setItems(items, ((dialog, which) -> {
+            String selected = items[which];
+            Toast.makeText(this, selected, Toast.LENGTH_SHORT).show();
+        }));
+        builder.show();
     }
 
     private void setupLabelObserver() {

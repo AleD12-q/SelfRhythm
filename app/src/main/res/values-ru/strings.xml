@@ -41,4 +41,8 @@
     <string name="back_btn">Назад</string>
     <string name="add_week_btn">Добавь новое расписание</string>
     <string name="dots">Точки</string>
+    <string name="import_item">Импортировать</string>
+    <string name="export_item">Экпортировать</string>
+    <string name="tasks">Задачи</string>
+    <string name="new_task">Новая задача</string>
 </resources>

@@ -40,7 +40,6 @@
             android:backgroundTint="@color/third"
             />
 
-
     </RelativeLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

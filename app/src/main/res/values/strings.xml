@@ -40,4 +40,8 @@
     <string name="back_btn">Back</string>
     <string name="add_week_btn">Add new schedule</string>
     <string name="dots">Dots</string>
+    <string name="import_item">Import</string>
+    <string name="export_item">Export</string>
+    <string name="tasks">Tasks</string>
+    <string name="new_task">New task</string>
 </resources>

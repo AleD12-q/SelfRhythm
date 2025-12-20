@@ -54,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.AppDialogTheme);
         builder.setItems(items, ((dialog, which) -> {
             String selected = items[which];
+            if(selected.equals(getString(R.string.new_task))){
+                ViewUtility.moveTo(this, NewTaskActivity.class);
+            }
             Toast.makeText(this, selected, Toast.LENGTH_SHORT).show();
         }));
         builder.show();

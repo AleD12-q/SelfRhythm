@@ -30,5 +30,8 @@
         <activity
             android:name=".WeekManageActivity"
             android:exported="false"/>
+        <activity
+            android:name=".NewTaskActivity"
+            android:exported="false"/>
     </application>
 </manifest>

@@ -21,7 +21,7 @@ public class SettingsActivity extends BaseActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentLayout(R.layout.settings_activity);
+        setContentLayout(R.layout.settings_activity, getString(R.string.settings_item_description));
 
 
 

@@ -15,6 +15,11 @@ import com.example.cyod.R;
 
 public class ViewUtility {
 
+    public static void moveTo(Context context, final Class<?> toActivity){
+        Intent intent = new Intent(context, toActivity);
+        context.startActivity(intent);
+    }
+
     public static void setMoveOnClick(View view, final Class<?> toActivity) {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
